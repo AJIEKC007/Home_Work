@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{fc3d98ca-db69-499d-92a3-da3491851439}</ProjectGuid>
-    <RootNamespace>DynamicArray</RootNamespace>
+    <ProjectGuid>{a8bde16a-a9a0-4b1e-866f-e19d75d00fd7}</ProjectGuid>
+    <RootNamespace>DynamicMemory2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>DynamicMemory1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
