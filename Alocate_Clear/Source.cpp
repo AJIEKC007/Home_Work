@@ -24,13 +24,13 @@ void main()
 	cout << "Введите индекс добавляемой строки: "; cin >> i;
 	insert_row(arr, m, n, i);
 	int str;
-	cout << "Сколько строк добавить?"; cin >> str;
+	cout << "Введите количество добавляемых строк: "; cin >> str;
 	for (int i = 0; i < str; i++)
 	{
 		insert_row(arr, m, n, i);
 	}
 
-
+	cout << "Память выделена!\n";
 	system("pause");
 	Clear(arr, m);
 	
